@@ -1,0 +1,23 @@
+
+PORT=1234
+MONGO_URL=mongodb://localhost/your-db-name
+MONGO_USER=
+MONGO_PASSWORD=
+UPLOADCARE_PUBLIC_KEY=
+UPLOADCARE_SECRET_KEY=
+TOKEN_KEY=DbzxPCSeaXJqUqNDDGcn-AhUhJ3sOZWHmsdJLVjPV
+EX_TOKEN=
+
+SQL_URL=localhost
+SQL_USER=your_username
+SQL_PASSWORD=your_password
+SQL_DATABASENAME=your_db_name
+SQL_DIALECT=mysql
+
+SQL_URL_SIMPLE=mysql://your_username:your_password@localhost:3306/your_db_name
+
+# Available: local, uploadcare
+STORAGE_DRIVER=local
+TWILIO_SID=sid
+TWILIO_AUTH_TOKEN=auth_token
+TWILIO_NUMBER=number
