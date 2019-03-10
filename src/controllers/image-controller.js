@@ -6,7 +6,7 @@ const create = async (req, res) => {
   const { body } = req
   let response
   const query = await Image.create({
-    images_member_code: body.member_code
+    images_member_code: body.member_cod
   })
   response = r(201, 'image uploaded', query)
   res.status(status.CREATED).json(response)
