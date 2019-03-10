@@ -18,8 +18,6 @@ jobs:
 
     steps:
       - checkout
-      - run : npm i
-      - run : yarn test
 
       # Download and cache dependencies
       - restore_cache:
@@ -34,3 +32,6 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+      # run tests!
+      - run: yarn test
