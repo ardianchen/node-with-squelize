@@ -13,8 +13,8 @@ SQL_USER=your_username
 SQL_PASSWORD=your_password
 SQL_DATABASENAME=your_db_name
 SQL_DIALECT=mysql
-
 SQL_URL_SIMPLE=mysql://your_username:your_password@localhost:3306/your_db_name
+
 
 # Available: local, uploadcare
 STORAGE_DRIVER=local

@@ -16,7 +16,7 @@
     "lint": "eslint src tests",
     "test": "NODE_PATH=. jest -i --verbose",
     "postinstall": "npm run public-dir && npm run build",
-    "db": "node_modules/.bin/sequelize"
+    "db": " ./node_modules/.bin/sequelize"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
